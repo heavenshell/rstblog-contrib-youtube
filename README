@@ -1,0 +1,27 @@
+This is a youtube extension for rstblog.
+
+rstblog is a static site generator.
+  - https://github.com/mitsuhiko/rstblog
+
+This module was inspired and ported from Sphinx's YouTube module.
+  - https://bitbucket.org/birkenfeld/sphinx-contrib/src/9d8aae90020d/youtube
+
+This module defines a directive, `youtube`.  It takes a single, required
+argument, a YouTube video ID::
+
+  ..  youtube:: oHg5SJYRHA0
+
+  ..  youtube:: oHg5SJYRHA0
+      :width: 640
+      :height: 480
+
+  ..  youtube:: oHg5SJYRHA0
+      :aspect: 4:3
+
+  ..  youtube:: oHg5SJYRHA0
+      :width: 100%
+
+  ..  youtube:: oHg5SJYRHA0
+      :height: 200px
+
+
